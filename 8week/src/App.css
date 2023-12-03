@@ -1,0 +1,33 @@
+
+form {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+input {
+  padding: 1em;
+  border: 1px solid black; 
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+.weather-info {
+  display: flex;
+  height: 150px;
+  border: 1px solid black; 
+  border-radius: 10px; 
+  width: 200px;
+}
+.weather-info .city {
+  align-self: flex-start;
+}
+
+.weather-info .temperature {
+  align-self:center;
+  font-size: 2em;
+  
+}
+
+.weather-info .condition {
+  align-self: flex-end;
+}
